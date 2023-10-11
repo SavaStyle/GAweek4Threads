@@ -13,7 +13,7 @@ public class Task {
                 }
                 System.out.println("Асинхронный пока!");
                 try {
-                    Thread.sleep(5000); // ждем 5 секунд
+                    Thread.sleep(5000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -24,7 +24,7 @@ public class Task {
             while (true) {
                 System.out.println("Работает основная программа");
                 try {
-                    Thread.sleep(1000); // ждем 1 секунду
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
