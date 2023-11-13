@@ -5,13 +5,13 @@ public class Task {
     public static void init() {
         Thread asyncThread = new Thread(() -> {
             while (true) {
-                System.out.println("Асинхронный привет!");
+                System.out.println("Асинхронный привет!!");
                 try {
                     Thread.sleep(5000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                System.out.println("Асинхронный пока!");
+                System.out.println("Асинхронный пока!!!");
                 try {
                     Thread.sleep(5000);
                 } catch (InterruptedException e) {
